@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1415214060"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -vewnhi -Fi/home/leandro/mestrado/Tiago/NavRob-master/RoC/src/lib/x86_64-linux -Fl/opt/gnome/lib -Fu/home/leandro/.lazarus/lib/lnetvisual/lib/x86_64-linux -Fu/home/leandro/.lazarus/lib/IDEIntf/units/x86_64-linux/gtk2 -Fu/home/leandro/.lazarus/lib/LazControls/lib/x86_64-linux/gtk2 -Fu/home/leandro/.lazarus/lib/units/x86_64-linux/gtk2 -Fu/home/leandro/.lazarus/lib/LCLBase/units/x86_64-linux -Fu/home/leandro/.lazarus/lib/LazUtils/lib/x86_64-linux -Fu/home/leandro/.lazarus/lib/lnetbase/lib/x86_64-linux -Fu/home/leandro/.lazarus/lib/units/x86_64-linux -Fu/home/leandro/mestrado/Tiago/NavRob-master/RoC/src/ -FU/home/leandro/mestrado/Tiago/NavRob-master/RoC/src/lib/x86_64-linux/ -l -dLCL -dLCLgtk2 RoC.lpr"/>
+</CONFIG>

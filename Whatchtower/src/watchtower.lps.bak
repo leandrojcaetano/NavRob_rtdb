@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="17">
+      <Unit0>
+        <Filename Value="watchtower.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="watchtower"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="48" Y="11"/>
+        <UsageCount Value="80"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Main"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="385"/>
+        <CursorPos X="36" Y="394"/>
+        <UsageCount Value="80"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="robots.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Robots"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="197"/>
+        <CursorPos X="10" Y="213"/>
+        <UsageCount Value="80"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="field.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FField"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Field"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="174"/>
+        <CursorPos X="1" Y="211"/>
+        <UsageCount Value="80"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="rocconsts.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="RoCConsts"/>
+        <EditorIndex Value="10"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="5"/>
+        <CursorPos X="8" Y="27"/>
+        <UsageCount Value="80"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="roles.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Roles"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="36"/>
+        <CursorPos X="22" Y="42"/>
+        <UsageCount Value="80"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="utils.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Utils"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="520"/>
+        <CursorPos X="15" Y="527"/>
+        <UsageCount Value="80"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="tatic.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Tatic"/>
+        <EditorIndex Value="9"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="4"/>
+        <CursorPos X="44" Y="8"/>
+        <UsageCount Value="80"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="param.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FParam"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Param"/>
+        <EditorIndex Value="6"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="39"/>
+        <CursorPos X="18" Y="74"/>
+        <UsageCount Value="80"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="log.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FLog"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Log"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="7"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="35"/>
+        <CursorPos X="98" Y="37"/>
+        <UsageCount Value="71"/>
+        <Bookmarks Count="1">
+          <Item0 X="22" Y="266" ID="1"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="drawmap.pas"/>
+        <UnitName Value="drawmap"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="16"/>
+        <CursorPos X="3" Y="24"/>
+        <UsageCount Value="9"/>
+        <Bookmarks Count="1">
+          <Item0 X="11" Y="18" ID="2"/>
+        </Bookmarks>
+      </Unit10>
+      <Unit11>
+        <Filename Value="fuzzy.pas"/>
+        <UnitName Value="Fuzzy"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="41"/>
+        <Loaded Value="True"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="dynmatrix.pas"/>
+        <UnitName Value="dynmatrix"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="4"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="lib/x86_64-linux/main.lrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="55"/>
+        <CursorPos X="3" Y="67"/>
+        <UsageCount Value="5"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="../../../../Desenvolvimento/lazarus/lcl/controls.pp"/>
+        <UnitName Value="Controls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="5"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="../../../../Desenvolvimento/lazarus/components/tachart/tagraph.pas"/>
+        <UnitName Value="TAGraph"/>
+        <EditorIndex Value="8"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1104"/>
+        <CursorPos X="1" Y="1116"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="../../../../Desenvolvimento/lazarus/lcl/comctrls.pp"/>
+        <UnitName Value="ComCtrls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="2970"/>
+        <CursorPos X="14" Y="2979"/>
+        <UsageCount Value="7"/>
+      </Unit16>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="29" HistoryIndex="28">
+      <Position1>
+        <Filename Value="log.pas"/>
+        <Caret Line="47" Column="11" TopLine="34"/>
+      </Position1>
+      <Position2>
+        <Filename Value="log.pas"/>
+        <Caret Line="8" Column="63" TopLine="1"/>
+      </Position2>
+      <Position3>
+        <Filename Value="log.pas"/>
+        <Caret Line="405" Column="1" TopLine="395"/>
+      </Position3>
+      <Position4>
+        <Filename Value="log.pas"/>
+        <Caret Line="36" Column="5" TopLine="31"/>
+      </Position4>
+      <Position5>
+        <Filename Value="log.pas"/>
+        <Caret Line="21" Column="19" TopLine="11"/>
+      </Position5>
+      <Position6>
+        <Filename Value="log.pas"/>
+        <Caret Line="85" Column="33" TopLine="74"/>
+      </Position6>
+      <Position7>
+        <Filename Value="log.pas"/>
+        <Caret Line="86" Column="33" TopLine="75"/>
+      </Position7>
+      <Position8>
+        <Filename Value="log.pas"/>
+        <Caret Line="87" Column="33" TopLine="76"/>
+      </Position8>
+      <Position9>
+        <Filename Value="log.pas"/>
+        <Caret Line="86" Column="33" TopLine="75"/>
+      </Position9>
+      <Position10>
+        <Filename Value="log.pas"/>
+        <Caret Line="87" Column="33" TopLine="76"/>
+      </Position10>
+      <Position11>
+        <Filename Value="log.pas"/>
+        <Caret Line="86" Column="33" TopLine="75"/>
+      </Position11>
+      <Position12>
+        <Filename Value="log.pas"/>
+        <Caret Line="87" Column="33" TopLine="76"/>
+      </Position12>
+      <Position13>
+        <Filename Value="log.pas"/>
+        <Caret Line="92" Column="33" TopLine="81"/>
+      </Position13>
+      <Position14>
+        <Filename Value="log.pas"/>
+        <Caret Line="93" Column="33" TopLine="82"/>
+      </Position14>
+      <Position15>
+        <Filename Value="log.pas"/>
+        <Caret Line="112" Column="66" TopLine="101"/>
+      </Position15>
+      <Position16>
+        <Filename Value="log.pas"/>
+        <Caret Line="125" Column="66" TopLine="114"/>
+      </Position16>
+      <Position17>
+        <Filename Value="log.pas"/>
+        <Caret Line="172" Column="46" TopLine="161"/>
+      </Position17>
+      <Position18>
+        <Filename Value="log.pas"/>
+        <Caret Line="60" Column="1" TopLine="50"/>
+      </Position18>
+      <Position19>
+        <Filename Value="log.pas"/>
+        <Caret Line="167" Column="5" TopLine="162"/>
+      </Position19>
+      <Position20>
+        <Filename Value="log.pas"/>
+        <Caret Line="186" Column="41" TopLine="176"/>
+      </Position20>
+      <Position21>
+        <Filename Value="log.pas"/>
+        <Caret Line="226" Column="55" TopLine="212"/>
+      </Position21>
+      <Position22>
+        <Filename Value="log.pas"/>
+        <Caret Line="296" Column="15" TopLine="67"/>
+      </Position22>
+      <Position23>
+        <Filename Value="log.pas"/>
+        <Caret Line="10" Column="51" TopLine="1"/>
+      </Position23>
+      <Position24>
+        <Filename Value="log.pas"/>
+        <Caret Line="34" Column="10" TopLine="26"/>
+      </Position24>
+      <Position25>
+        <Filename Value="log.pas"/>
+        <Caret Line="324" Column="10" TopLine="294"/>
+      </Position25>
+      <Position26>
+        <Filename Value="log.pas"/>
+        <Caret Line="267" Column="22" TopLine="238"/>
+      </Position26>
+      <Position27>
+        <Filename Value="log.pas"/>
+        <Caret Line="80" Column="3" TopLine="60"/>
+      </Position27>
+      <Position28>
+        <Filename Value="log.pas"/>
+        <Caret Line="21" Column="3" TopLine="1"/>
+      </Position28>
+      <Position29>
+        <Filename Value="log.pas"/>
+        <Caret Line="40" Column="32" TopLine="28"/>
+      </Position29>
+    </JumpHistory>
+  </ProjectSession>
+  <EditorMacros Count="0"/>
+</CONFIG>

@@ -1,0 +1,296 @@
+object FMain: TFMain
+  Left = 842
+  Height = 661
+  Top = 173
+  Width = 694
+  ActiveControl = CBSim
+  Caption = 'RoC T7Br 2.0'
+  ClientHeight = 634
+  ClientWidth = 694
+  KeyPreview = True
+  Menu = MainMenu
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '1.2.6.0'
+  object GBMainControl: TGroupBox
+    Left = 312
+    Height = 88
+    Top = 296
+    Width = 128
+    Caption = 'Robot State'
+    ClientHeight = 66
+    ClientWidth = 126
+    TabOrder = 0
+    object CBSim: TCheckBox
+      Left = 0
+      Height = 25
+      Top = 8
+      Width = 94
+      Caption = 'Simulation'
+      OnChange = CBSimChange
+      OnClick = CBSimClick
+      TabOrder = 0
+    end
+    object CBShow: TCheckBox
+      Left = 0
+      Height = 25
+      Top = 40
+      Width = 94
+      Caption = 'Show Map'
+      TabOrder = 1
+    end
+  end
+  object GroupBox3: TGroupBox
+    Left = 312
+    Height = 88
+    Top = 392
+    Width = 188
+    Caption = 'Select Role'
+    ClientHeight = 66
+    ClientWidth = 186
+    Color = clBtnFace
+    ParentColor = False
+    TabOrder = 1
+    object CBStartRole: TComboBox
+      Left = 8
+      Height = 33
+      Top = 0
+      Width = 164
+      DropDownCount = 15
+      ItemHeight = 0
+      MaxLength = 65535
+      Style = csDropDownList
+      TabOrder = 1
+    end
+    object BSetRole: TButton
+      Left = 8
+      Height = 21
+      Top = 40
+      Width = 61
+      Caption = '&Set Role'
+      OnClick = BSetRoleClick
+      TabOrder = 0
+    end
+  end
+  object ImageMap: TPaintBox
+    Left = 8
+    Height = 288
+    Top = 8
+    Width = 608
+    OnMouseDown = ImageMapMouseDown
+    OnMouseUp = ImageMapMouseUp
+  end
+  object RGController: TRadioGroup
+    Left = 504
+    Height = 113
+    Top = 392
+    Width = 112
+    AutoFill = True
+    Caption = 'Control Mode'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 91
+    ClientWidth = 110
+    ItemIndex = 0
+    Items.Strings = (
+      'Stop'
+      'Manual'
+      'Joy'
+      'Play'
+    )
+    TabOrder = 2
+  end
+  object EditTaskName: TEdit
+    Left = 326
+    Height = 33
+    Top = 504
+    Width = 260
+    TabOrder = 3
+  end
+  object EditRoleName: TEdit
+    Left = 128
+    Height = 33
+    Top = 504
+    Width = 188
+    TabOrder = 4
+  end
+  object MemoActionPars: TMemo
+    Left = 8
+    Height = 176
+    Top = 304
+    Width = 296
+    OnChange = MemoActionParsChange
+    TabOrder = 5
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 19
+    Top = 509
+    Width = 107
+    Caption = 'Selected Role:'
+    Font.Height = -16
+    Font.Name = 'Sans'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 328
+    Height = 19
+    Top = 480
+    Width = 108
+    Caption = 'Selected Task:'
+    Font.Height = -16
+    Font.Name = 'Sans'
+    ParentColor = False
+    ParentFont = False
+  end
+  object GroupBox1: TGroupBox
+    Left = 442
+    Height = 88
+    Top = 296
+    Width = 174
+    Caption = 'Manual Mode'
+    ClientHeight = 66
+    ClientWidth = 172
+    TabOrder = 6
+    object Label4: TLabel
+      Left = 8
+      Height = 21
+      Top = 8
+      Width = 38
+      Caption = 'Lienar'
+      ParentColor = False
+    end
+    object Edit3: TEdit
+      Left = 80
+      Height = 33
+      Top = 5
+      Width = 80
+      TabOrder = 0
+      Text = '1'
+    end
+    object Edit4: TEdit
+      Left = 80
+      Height = 33
+      Top = 37
+      Width = 80
+      TabOrder = 1
+      Text = '1'
+    end
+    object Label5: TLabel
+      Left = 8
+      Height = 21
+      Top = 40
+      Width = 49
+      Caption = 'Angular'
+      ParentColor = False
+    end
+  end
+  object Edit1: TEdit
+    Left = 80
+    Height = 33
+    Top = 576
+    Width = 80
+    OnChange = Edit1Change
+    TabOrder = 7
+  end
+  object Button1: TButton
+    Left = 168
+    Height = 33
+    Top = 576
+    Width = 131
+    Caption = 'Escreve na RTDB'
+    OnClick = Button1Click
+    TabOrder = 8
+  end
+  object Button2: TButton
+    Left = 312
+    Height = 33
+    Top = 576
+    Width = 95
+    Caption = 'Ler da RTDB'
+    OnClick = Button2Click
+    TabOrder = 9
+  end
+  object Label3: TLabel
+    Left = 424
+    Height = 21
+    Top = 584
+    Width = 33
+    Caption = 'Nada'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 24
+    Height = 21
+    Top = 585
+    Width = 51
+    Caption = 'Integer:'
+    ParentColor = False
+  end
+  object MainMenu: TMainMenu
+    left = 32
+    top = 96
+    object MenuFile: TMenuItem
+      Caption = '&File'
+      object MenuAbout: TMenuItem
+        Caption = '&About'
+        OnClick = MenuAboutClick
+      end
+      object MenuExit: TMenuItem
+        Caption = 'E&xit'
+        OnClick = MenuExitClick
+      end
+    end
+    object MenuWindows: TMenuItem
+      Caption = '&Windows'
+      object MenuCamera: TMenuItem
+        Caption = 'Camera'
+      end
+      object MenuControl: TMenuItem
+        Caption = 'Control'
+        OnClick = MenuControlClick
+      end
+      object MenuJoystick: TMenuItem
+        Caption = 'Joystick'
+        OnClick = MenuJoystickClick
+      end
+      object MenuLoc: TMenuItem
+        Caption = 'Localization'
+      end
+      object MenuMap: TMenuItem
+        Caption = 'Maps'
+      end
+      object MenuParam: TMenuItem
+        Caption = 'Parameters'
+        OnClick = MenuParamClick
+      end
+      object MenuField: TMenuItem
+        Caption = 'Soccer Field'
+        OnClick = MenuFieldClick
+      end
+    end
+  end
+  object FormStorage: TIniPropStorage
+    StoredValues = <>
+    IniSection = 'MAIN'
+    left = 32
+    top = 160
+  end
+  object UDPSim: TLUDPComponent
+    Port = 0
+    OnReceive = UDPSimReceive
+    OnError = UDPSimError
+    Timeout = 0
+    left = 32
+    top = 48
+  end
+end

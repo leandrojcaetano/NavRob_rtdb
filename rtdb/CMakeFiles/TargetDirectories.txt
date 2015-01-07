@@ -1,0 +1,4 @@
+/home/leandro/mestrado/rtdb/example/CMakeFiles/write.dir
+/home/leandro/mestrado/rtdb/comm/CMakeFiles/comm.dir
+/home/leandro/mestrado/rtdb/example/CMakeFiles/read.dir
+/home/leandro/mestrado/rtdb/rtdb/CMakeFiles/rtdb.dir

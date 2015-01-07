@@ -1,0 +1,7 @@
+uses
+	rtdb_api;
+begin
+	DB_init;
+	
+	DB_free;
+end.
